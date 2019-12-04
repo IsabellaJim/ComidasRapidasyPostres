@@ -1,17 +1,39 @@
-body{
-    background-color:rgb(231, 139, 224);
-    color:yellowgreen;
+    *{
+        margin: auto;
+    }
+
+    body{
+    background-color: lightslategray;
+    color:mediumblue;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
     }
 
     #misupertitulo{
-        color: greenyellow;
+        color: mediumvioletred;
         font-size: 40px;
+        padding: 25px;
+
     }
 
+    p{
+        border: 5px solid white;
+        color: black;
+        padding:20px;
+        margin: 20px;
+    }
+    
+    .hiper{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
     .imagenesintro{
         width: 300px;
         height: 160px;
         display: block;
+        margin-top: 20px;
     }
     
     a:hover{
@@ -24,6 +46,15 @@ body{
         width: 350px;
         height: 260px;
     }
+    
+    text{
+        color: black;
+    }
+
+    h3{
+        color: black;
+    }
+
 
 
 
