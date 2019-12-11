@@ -55,6 +55,91 @@
         color: black;
     }
 
+    .cuadro1{
+    width:100px;
+    height:180px;
+    border:black 2px;
+    padding:40px;
+    background-color:darkkhaki;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    position: static;
+    }   
+
+    .cuadro2{
+        width:100px;
+        height:180px;
+        border:black 2px;
+        padding:40px;
+        background-color:darkcyan;
+
+        margin: 20px;
+    
+        font-family: fantasy;
+        font-size: 20px;
+    
+        position: relative;
+        top: 20px;
+        left:40px;
+        }   
+
+        .cuadro3{
+            width:360px;
+            height:50px;
+            border:black 2px;
+            padding:40px;
+            background-color:darkslateblue;
+    
+            margin: 20px;
+        
+            font-family: fantasy;
+            font-size: 15px;
+        
+            position: fixed;
+            bottom: 60px;
+            left: 300px;
+            TOP: 300PX;
+            }   
+
+            .cuadro4{
+                width:120px;
+                height:180px;
+                border:black 2px;
+                padding:40px;
+                background-color:deepskyblue;
+        
+                margin: 20px;
+            
+                font-family: fantasy;
+                font-size: 20px;
+            
+                position: absolute;
+                top: 170px;
+                 left:40px;
+                }   
+
+                .flotante{
+                    width:350px;
+                    height:50px;
+                    border:black 2px;
+                    padding:40px;
+                    background-color:brown;
+            
+                    margin: 20px;
+                
+                    font-family: fantasy;
+                    font-size: 20px;
+                
+                    float: left;
+
+                    }   
+    
+    
+
+    
+
 
 
 
