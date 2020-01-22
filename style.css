@@ -15,6 +15,7 @@
         font-size: 40px;
         padding: 25px;
 
+
     }
 
     p{
@@ -135,7 +136,54 @@
                     float: left;
 
                     }   
+
+                #miimagen:hover{
+                    transition-duration: 2s;
+                    transition-timing-function: ease-in;
+                    transform: rotateZ(15deg) scale(0.9);
+                    filter: blur(1px)
+                }
+                
+                #miimagen2{
+                    transition-duration: 1s;
+                    transition-property: initial;
+                    transform: rotateX(20deg);
+                    translate3d(1.2);
+                    
+                }
+
+                #miimagen3{
+                    transition-duration: 2s;
+                    transition-delay: 2s;
+                    transform: rotateZ(-10deg) scale(1.0);
+                    filter: grayscale(100%)
+                }
+
+                #miimagen4{
+                    transition-duration: 0.3s;
+                    transition-property: all;
+                    transform: rotateY(25deg);
+                    translate:(1.2);
+                    }
+
+                 #miimagen5{
+                    transition-duration: 1s;
+                    transition-delay: 0.3s;
+                    transform: rotateZ(-25deg) scale(1.0);
+                    filter: grayscale(100%)
+                 }
     
+                 #miimagen6{
+                    transition-duration: 2s;
+                    transition-timing-function:linear;
+                    transform: rotateZ(23deg) scale(0.9);
+                    filter: blur(1px)
+                }
+    
+                #mytitle:hover{
+                    transform: rotateZ(180deg) scale(1.0);
+                    color: #ff0000;
+                }
     
 
     
